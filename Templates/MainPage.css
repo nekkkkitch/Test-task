@@ -1,0 +1,39 @@
+body{
+    background-color:#fff7db;
+}
+.loginlink, .signuplink{
+    text-decoration: none;
+    color:#ffab17;
+    display: inline;
+    white-space: nowrap;
+}
+hr{
+    position: absolute;
+    top:50px;
+    width: 98%;;
+    color:red;
+}
+button{
+    cursor: pointer;
+}
+#addNote{
+    position: absolute;
+    border:none;
+    background: none;
+    height:50px;
+    left: 5px
+}
+#userPng{
+    position: absolute;
+    border:none;
+    background: none;
+    height:50px;
+    right: 5px;
+}
+#Registration{
+    border-bottom: 2px solid black;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
