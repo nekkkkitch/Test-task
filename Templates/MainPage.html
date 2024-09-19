@@ -8,10 +8,19 @@
         <title>Нотесы</title>
     </head>
     <body>
-        <div id="UpperPanel">
-            <button type="addNote" id="addNote"><img src="Images/plus.png" width="100%" height="100%"></button>
-            <button type="addNote" id="userPng"><img src="Images/user.png" width="100%" height="100%"></button>
+        <div class="UpperPanel">
+            <button type="addNote" id="addNote"><img src="Images/plus.png" width="100%" height="100%"/></button>
+            <button type="addNote" id="userPng"><img src="Images/user.png" width="100%" height="100%"/></button>
+            <hr color="gray" class="UpperPanelLine"/>
         </div>
-        <hr color="gray"/>
+        <div class="Note">
+            <div class="NoteInside">
+            <span style="white-space: pre-line" class="NoteTitle"><b>Title</b></span>
+            <div></div>
+            <span style="white-space: pre-line" class="NoteDescription">Description</span>
+            </div> 
+            <img src="Images/pencil.png" class="Pencil"/>
+            <img src="Images/trashcan.png" class="Trashcan"/>
+        </div>
     </body>
 </html>
