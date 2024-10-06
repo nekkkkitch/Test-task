@@ -9,6 +9,7 @@
     </head>
     <body>
         <div class="RegisterThing">
+            <form name="login_user" action="/login_user" method="post">
             <span>Login</span>
             <div></div>
             <input class="LoginInput" id="loginInput"></input>
@@ -17,8 +18,9 @@
             <input type="password" oninput="CheckPassword()" class="PasswordInput" id="passwordInput"></input>
             <span class="PasswordProblem" id="passwordProblem"></span>
             <div></div>
-            <button class="LogReg">Login/Register</button>
+            <button input type="submit" name="submit" value="Send" class="LogReg">Login/Register</button>
+            </form>
         </div>
-    <script src="resources/css/LoginPage.js"></script>
+    <script src="/resources/js/LoginPage.js"></script>
     </body>
 </html>
